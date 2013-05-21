@@ -6,11 +6,10 @@
 jQuery.fn.blockLevelr = (settings) ->
   
   # default config values
-  config = {
+  config =
     minHeight: 0      # Minimal OUTER height of the columns
     perRow:    0      # Number of elements per row
     emBase:    false  # Set the base pixel value of 1em (false if output is in pixels)
-  }
   
   jQuery.extend(config, settings) if settings
   
