@@ -1,7 +1,9 @@
+###
 # blockLevelr jQuery Plugin
 # A plugin for equalizing the height of blocks
 # version 1.0, May 19th, 2013
 # by Etienne Talbot
+###
 
 jQuery.fn.blockLevelr = (settings) ->
   
